@@ -1,0 +1,2994 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+html{
+  font-size:14px
+}
+@media screen and (max-width:1280px){body{width:1280px!important}}
+body {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+}
+h1, h2, h3, h4, h5, h6, p, li{
+  margin: 0px;
+  padding: 0px;
+}
+a{ text-decoration: none}
+ul>li{ list-style: none; }
+.swiper-pagination-bullet{
+  background:#fff
+}
+input{
+  border: none;
+  outline: none;
+}
+::-webkit-input-placeholder {
+  color: #999;
+}
+:-moz-placeholder {
+  color:#999;
+}
+::-moz-placeholder {
+  color: #999;
+}
+:-ms-input-placeholder {
+  color: #999;
+}
+.ivu-select-dropdown{
+  padding:0px!important;
+}
+.ivu-tabs-bar{
+  border:none
+}
+.ivu-steps .ivu-steps-head{
+  background: none
+}
+.ivu-steps-horizontal .ivu-steps-item:not(:first-child) .ivu-steps-head{
+  padding-left:0;
+}
+.ivu-steps-horizontal .ivu-steps-content{
+  margin-left: -15px;
+  padding-left: 0;
+}
+.ivu-tabs-nav .ivu-tabs-tab{
+  font-size:24px;
+  color:#fff;
+}
+.ivu-tabs-nav .ivu-tabs-tab-active{
+  color:#f3ba2f;
+}
+.ivu-tabs-ink-bar{
+  background-color: #f3ba2f;
+}
+.ivu-tabs-nav .ivu-tabs-tab:hover {
+  color: #f3ba2f;
+}
+
+
+/*wml-start*/
+.table-data .ivu-table th {
+  height: 50px;
+  background-color: #171a21;
+  border-bottom: 1px solid #272c39;
+}
+.table-data .ivu-table td, .otc-detail .ivu-table th{
+  background-color: #171a21;
+  border-bottom: 1px solid #272c39;
+}
+
+.table-data .ivu-table-wrapper{
+  border: none;
+  position:static !important;
+}
+.table-data .ivu-table{
+  background-color: #171a21 !important;
+}
+.table-data .ivu-table th .ivu-table-cell span{
+  font-size: 14px;
+  color: #999999;
+  font-family: "Microsoft YaHei";
+}
+.table-data .ivu-table th .ivu-table-cell span{
+
+}
+.table-data .ivu-switch:after{
+  width: 15px;
+  height: 15px;
+}
+.table-data .ivu-switch-checked:after{
+   left: 19px;
+ }
+.table-data .ivu-switch{
+  background-color: #999;
+  border-radius: 10px;
+  border-color: #999;
+}
+.table-data .ivu-switch-checked{
+  border-color: #f3ba2f;
+  background-color: #f3ba2f;
+}
+.table-data .ivu-switch:focus{
+  box-shadow: none;
+}
+
+/*登录*/
+
+/*登录*/
+.login .codeNum .ivu-form-item-content{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.login .codeNum .ivu-form-item-content .ivu-input-wrapper{
+  width: 348px;
+  margin-right: 20px;
+  height: 40px;
+}
+.login .ivu-form-item-content .ivu-input-wrapper .ivu-input{
+  height: 40px;
+  background: none;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #95a1bd;
+  padding-left: 2px;
+}
+.login .ivu-select-visible .ivu-select-selection{
+  border-color: #fff;
+  box-shadow:none;
+}
+.login .ivu-select-selection-focused, .login .ivu-select-selection:hover{
+  border-color:#fff
+}
+.login .ivu-select-item-selected.ivu-select-item-focus, .login .ivu-select-item:hover{
+  color: #f3ba2f;
+}
+.login .ivu-select-single .ivu-select-selection .ivu-select-selected-value{
+  line-height: 40px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.login .codeNum .ivu-form-item-content .ivu-btn-info{
+  width: 100px;
+  background: #eee;
+  border: none;
+  height: 40px;
+  color: #07d08b;
+  font-size: 16px;
+}
+.login .ivu-form-item-content .ivu-btn-primary{
+  color: #fff;
+  background-color: #f3ba2f;
+  width: 214px;
+  height: 40px;
+  font-size: 14px;
+  border:none;
+}
+.login .set_account .ivu-form-item-content{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.login .model{
+  background:#000f22;
+}
+
+
+.login .ivu-select-selection{
+  background: none;
+  height: 40px;
+  line-height: 40px;
+}
+.login .ivu-select-selection:hover{
+  border-color: #fff;
+}
+.login .ivu-select-selection .ivu-select-placeholder{
+  line-height: 40px;
+  height: 40px;
+}
+.login .ivu-form-item-content .code_num .ivu-input{
+  width: 400px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 0!important;
+  border-top-right-radius: 0!important;
+}
+.login .ivu-form-item-content .codeNum .mailCode{
+  position: absolute;
+  right: -10px;
+  bottom: 0;
+  background: rgba(0,0,0,0);
+  color: #f3ba2f;
+  border: none;
+}
+.login .ivu-form-item-content .ivu-checkbox-inner{
+  background: none;
+}
+.login .ivu-form-item-content .ivu-checkbox-checked .ivu-checkbox-inner{
+  border-color:#fff
+}
+
+
+
+/*tips(w)*/
+.tip .ivu-form-item-error-tip{
+  width: auto;
+  height:40px;
+  line-height: 40px;
+  text-align: center;
+  border:1px solid #1b1f34;
+  top: -10px;
+  left: 50%;
+  border-radius: 5px;
+  background:#22263f;
+  box-shadow: 0 0 1px 1px #1b1a2b;
+  padding: 0 20px;
+  font-size: 12px;
+  color:#fff;
+  transform: translateX(-50%);
+}
+.tip .ivu-form-item-error-tip:before{
+  content: "";
+  position: absolute;
+  left: 45%;
+  top: 34px;
+  width: 10px;
+  height: 10px;
+  background: none;
+  border-left: 1px solid #22263f;
+  border-top: 1px solid #22263f;
+  transform: rotate(225deg);
+  background: #22263f;
+}
+.tip_code .ivu-form-item-error-tip{
+  width: auto;
+  height:40px;
+  line-height: 40px;
+  text-align: center;
+  border:1px solid #1b1f34;
+  top: -44px;
+  left: 80px;
+  border-radius: 5px;
+  background:#22263f;
+  box-shadow: 0 0 1px 1px #1b1a2b;
+  padding: 0 20px;
+  font-size: 12px;
+  color:#fff;
+}
+.tip_code .ivu-form-item-error-tip:before{
+  content: "";
+  position: absolute;
+  left: 45%;
+  top: 34px;
+  width: 10px;
+  height: 10px;
+  background: none;
+  border-left: 1px solid #22263f;
+  border-top: 1px solid #22263f;
+  transform: rotate(225deg);
+  background: #22263f;
+}
+.tip .ivu-form-item-error .ivu-input{
+  border-color: #e13232 !important;
+}
+.whiteTip .ivu-form-item-error .ivu-input{
+  border-color: #e13232;
+}
+.anumber .ivu-form-item-error .ivu-input{
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.googletip .ivu-form-item-error .ivu-input{
+  border-radius: 5px;
+  /*border-bottom-right-radius: 5 !important;*/
+}
+/* 分页插件*/
+.pageOrder .ivu-page-item a{
+  color:#eee;
+}
+.pageOrder .ivu-page-item-active{
+  border-color:#eee;
+  background: #eee;
+}
+.pageOrder .ivu-page-item-active a{
+  color:#12151a;
+}
+.pageOrder .ivu-page-item:hover{
+  border-color: #eee;
+  background: #eee;
+  transition: all .3s ease-in-out;
+}
+.pageOrder .ivu-page-item:hover a{
+  color:#12151a;
+  transition: all .3s ease-in-out;
+}
+.pageOrder .ivu-page-item{
+  border-color: #eee;
+}
+.pageOrder a{
+  color:#eee;
+}
+.pageOrder .ivu-page-next:hover, .pageOrder .ivu-page-prev:hover{
+  border-color: #eee;
+}
+.pageOrder .ivu-page-next:hover a, .pageOrder .ivu-page-prev:hover a{
+  color:#eee;
+}
+.pageOrder .ivu-page-next{
+  background: none;
+}
+/*分页插件结束*/
+
+
+
+
+
+/*dyystyle*/
+
+.body{font-family: MicrosoftYaHei;}
+a,span{font-family: MicrosoftYaHei;}
+.ivu-btn-primary:focus{box-shadow: none;}
+
+.otc-detail .ivu-radio-inner:after{
+  background-color:#333!important;
+}
+.otc-detail .ivu-radio-checked .ivu-radio-inner{
+  border-color: #333;
+  box-shadow: none;
+}
+.otc-detail .ivu-select-single .ivu-select-selection {
+  width: 265px;
+  height: 36px;
+  line-height: 36px;
+}
+.otc-detail .ivu-select-single .ivu-select-selection .ivu-select-placeholder{
+  height: 36px;
+  line-height: 36px;
+  text-align: left;
+}
+.otc-detail .ivu-select-single .ivu-select-selection .ivu-select-placeholder:focus, .otc-detail .ivu-select-single .ivu-select-selection:hover{
+  border: 1px solid #dddee1;
+}
+.otc-detail .ivu-select{
+  width: auto;
+  border-color: #dddee1;
+  text-align: left;
+}
+.otc-detail .ivu-select:visited{
+  border-color: #dddee1;
+}
+.otc-detail .ivu-select-visible .ivu-select-selection{
+  border-color: #dddee1;
+  box-shadow: none;
+  text-align: left;
+}
+.otc-detail .ivu-select-single .ivu-select-selection:focus{
+  border-color: #dddee1;
+  box-shadow: none;
+}
+
+.otc-detail .ivu-select-item-selected{
+  color: #666;
+  background: #fff;
+  font-size: 14px;
+  text-align: left;
+}
+.otc-detail .ivu-select-item:hover{
+  color: #f3ba2f;
+  background: #edeef4;
+}
+.otc-detail .ivu-select-single .ivu-select-selection .ivu-select-placeholder,
+.otc-detail .ivu-select-single .ivu-select-selection .ivu-select-selected-value{
+  height: 36px;
+  line-height: 36px;
+}
+.order .model{
+  background: #fff;
+}
+.dealrecord .ivu-date-picker-cells-cell-selected em,
+.dealrecord .ivu-date-picker-cells-cell-selected:hover em,
+.dealrecord .ivu-date-picker-cells-cell:hover em{
+  background: rgba(0,0,0,0);
+  color: #333;
+}
+.dealrecord .ivu-date-picker-cells-focused em{
+  box-shadow: none;
+}
+.dealrecord .ivu-date-picker-cells-cell-today em:after{
+  display: none;
+}
+.dealrecord :-ms-input-placeholder {
+  color: #eee;
+}
+.dealrecord .ivu-col-span-12{
+  width: 100px;
+}
+.dealrecord .ivu-select-single .ivu-select-selection{
+  height: 26px;
+  border: 1px solid #eee;
+  background-color: rgba(0,0,0,0);
+  border-radius: 5px;
+}
+.dealrecord  .ivu-date-picker-focused input{
+  box-shadow: none;
+}
+.dealrecord .ivu-row,
+.dealrecord .ivu-col-span-12{
+  display: inline-block;
+}
+.dealrecord .ivu-select-single .ivu-select-selection .ivu-select-placeholder{
+  height: 26px;
+  line-height: 26px;
+}
+.dealrecord .ivu-input-icon{display: none;}
+.dealrecord .ivu-input-icon-normal+.ivu-input{
+  padding: 5px 10px;
+  text-align: center;
+  height: 26px;
+  line-height: 26px;
+  border: 1px solid #eee;
+  color: #eee;
+  border-radius: 5px;
+  background: rgba(0,0,0,0);
+}
+.dealrecord .ivu-btn-primary{
+  background-color: #f3ba2f;
+  border: none;
+}
+.dealrecord .ivu-btn{
+  height: 26px;
+  width: 50px;
+  margin-left: 20px;
+  border-radius: 5px;
+  padding: 0;
+}
+
+/* Transfer-Select*/
+.promotionbox .ivu-select{
+  color: #999;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+.promotionbox .ivu-select-single .ivu-select-selection{
+  height: 40px;
+  background-color: rgba(0,0,0,0);
+  border-radius: 5px;
+  border-color: #fff;
+}
+.promotionbox .ivu-select-selection-focused,
+.promotionbox .ivu-select-selection:hover{
+  border-color: #fff;
+}
+.promotionbox .ivu-select-single .ivu-select-selection .ivu-select-placeholder,
+.promotionbox .ivu-select-single .ivu-select-selection .ivu-select-selected-value{
+  height: 40px;
+  line-height: 40px;
+  padding-left: 10px;
+}
+.promotionbox .ivu-select-single .ivu-select-selection .ivu-select-placeholder{
+  color: #999;
+}
+.promotionbox .ivu-select-arrow{
+  color: #fff;
+}
+.promotionbox .ivu-select-dropdown{
+  max-height: 140px;
+  margin-top: 0;
+  padding: 8px 0 !important;
+  background-color: #171a21;
+  border-radius: 5px;
+}
+.promotionbox .ivu-select-not-found{
+  color: #999;
+}
+.promotionbox .ivu-select-item:hover{
+  background: #f3ba2f;
+}
+.promotionbox .ivu-select-item{
+  padding: 8px 10px;
+  height: 30px;
+  color: #fff;
+}
+/*-phonenumchange-select*/
+.phonenumchange .ivu-select{
+  color: #666;
+  font-size: 16px;
+  text-align: right;
+  border-right: 1px solid #eee;
+}
+.phonenumchange .ivu-select-single .ivu-select-selection .ivu-select-placeholder,
+.phonenumchange .ivu-select-single .ivu-select-selection .ivu-select-selected-value{
+  padding-right: 30px !important;
+}
+.phonenumchange .ivu-select-selection{
+  border:1px solid rgba(0,0,0,0);
+  background: rgba(0,0,0,0);
+}
+.phonenumchange .ivu-select-single .ivu-select-selection{
+  height: 40px;
+}
+.phonenumchange .ivu-select-visible .ivu-select-selection{
+  border-color: rgba(0,0,0,0);
+  box-shadow: none;
+}
+.phonenumchange .ivu-select-selection-focused, .ivu-select-selection:hover{
+  border-color: rgba(0,0,0,0);
+}
+.phonenumchange .ivu-select-single .ivu-select-selection .ivu-select-placeholder,
+.phonenumchange .ivu-select-single .ivu-select-selection .ivu-select-selected-value{
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  padding: 0;
+  background-color: rgba(0,0,0,0);
+}
+.phonenumchange .ivu-select-arrow{
+  color: #eee;
+  right: 10px;
+  font-size: 20px !important;
+}
+.phonenumchange .ivu-icon-arrow-down-b:before{
+  content: "\F3D0";
+}
+.phonenumchange .ivu-select-dropdown{
+  width: 460px !important;
+  height: 200px;
+  overflow-y: auto;
+  max-height: none;
+  margin-top: 2px;
+  margin-left: 353px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.phonenumchange .ivu-select-group-title{
+  height: 30px;
+  padding: 0 10px;
+  line-height: 30px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+  color: #666;
+  font-size: 14px !important;
+}
+.phonenumchange .ivu-select-item{
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  padding: 0 10px;
+  color: #666;
+  font-size: 14px !important;
+  line-height: 40px;
+  border-bottom: 1px solid #eee;
+}
+.phonenumchange .ivu-select-item:hover{background: #f3ba2f;}
+.phonenumchange .ivu-select-item-selected{background: #fff;}
+.phonenumchange .ivu-select-item-selected:hover{
+  background: #f3ba2f;
+}
+.phonenumchange .ivu-select-item-selected.ivu-select-item-focus{
+  background: rgba(0,0,0,0);
+}
+
+
+/*tips*/
+.whiteTip .ivu-form-item-error-tip{
+  width: auto;
+  height:40px;
+  line-height: 40px;
+  text-align: center;
+  border:1px solid #eee;
+  top: -45px;
+  left: 50%;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 0 5px 1px #eee;
+  padding: 0 20px;
+  font-size: 12px;
+  color:#e13232;
+}
+.blackTip .ivu-form-item-error-tip{
+  border: 1px solid #1b1f34;
+  background: #171a21;
+  box-shadow: 0 0 5px 1px #1b1f34;
+  color: #fff;
+}
+.whiteTip .ivu-form-item-error-tip:before {
+  content: "";
+  position: absolute;
+  left: 45%;
+  top: 34px;
+  width: 10px;
+  height: 10px;
+  background: none;
+  border-left: 1px solid #eee;
+  border-top: 1px solid #eee;
+  transform: rotate(225deg);
+  background: #fff;
+}
+.blackTip .ivu-form-item-error-tip:before{
+  border-left: 1px solid #1b1f34;
+  border-top: 1px solid #1b1f34;
+  background: #171a21;
+}
+
+/*input*/
+.whiteTip input::-webkit-outer-spin-button,
+.whiteTip input::-webkit-inner-spin-button {-webkit-appearance: none;}
+.whiteTip input[type="number"]{-moz-appearance: textfield;}
+/*phone form input*/
+.whiteTip .ivu-form-item{
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+.whiteTip .ivu-form-item-content{
+  height: 40px;
+  line-height: 40px;
+}
+.whiteTip .ivu-input{
+  height: 40px !important;
+  border: 1px solid #eee;
+  corlor: #eee;
+  font-size: 14px;
+  line-height: 40px;
+  border-radius: 5px;
+  padding: 0 10px;
+  margin: 0 !important;
+  outline-color: rgba(0,0,0,0);
+}
+.blackTip .ivu-input{
+  border-color: #fff;
+  color: #999;
+}
+/*hover*/
+.whiteTip .ivu-input:hover{
+  border-color: #eee;
+}
+/*focus*/
+.whiteTip .ivu-input:focus{
+  border-color: #eee;
+  box-shadow: none;
+}
+/*phone input 尺寸等*/
+.phone .ivu-form-item-content{
+  width: 460px;
+}
+/*phonetwo input 尺寸等*/
+.phonetwo .ivu-form-item-content{
+  width: 360px;
+}
+.phonetwo .ivu-input{
+  border: rgba(0,0,0,0);
+  margin-top: -5px;
+  background: rgba(0,0,0,0);
+}
+/* 我的推广-划转 input 尺寸等*/
+.ivu-form-item{
+  width: 370px;
+  display: inline-block;
+}
+.promotionbox .ivu-form-item-content{
+  width: 370px;
+}
+.promotionbox .ivu-input{
+  background: rgba(0,0,0,0);
+}
+
+/*wmlstyle*/
+
+/*账号管理-switch accountSecuritySwitch*/
+/*关闭状态*/
+.accountSecuritySwitch{
+  position: relative;
+}
+.accountSecuritySwitch .ivu-switch{
+  width: 40px;
+  height: 20px;
+  line-height: 20px;
+  border: 1px solid #999;
+  background-color: #999;
+}
+.accountSecuritySwitch .ivu-switch:after{
+  width: 18px;
+  height: 18px;
+  border-radius: 18px;
+  top: 0;
+}
+/*开启状态*/
+.accountSecuritySwitch .ivu-switch-checked{
+  border-color: #f3ba2f;
+  background-color: #f3ba2f;
+}
+.accountSecuritySwitch .ivu-switch-checked:after{
+  top: 0;
+  left: 20px;
+}
+.accountSecuritySwitch .ivu-switch:focus{
+  box-shadow: none;
+}
+
+
+/*tips*/
+.ivu-form-item-error .ivu-input {
+  border: 1px solid #e13232 !important;
+}
+.number_num .ivu-form-item-error-tip{
+  width: auto;
+  height:40px;
+  line-height: 40px;
+  text-align: center;
+  border:1px solid #1b1f34;
+  top: -45px;
+  left: 50%;
+  border-radius: 5px;
+  background: #171a21;
+  box-shadow: 0 0 5px 1px #1b1f34;
+  padding: 0 20px;
+  font-size: 12px;
+  color:#fff;
+}
+.number_num .ivu-form-item-error-tip:before {
+  content: "";
+  position: absolute;
+  left: 45%;
+  top: 34px;
+  width: 10px;
+  height: 10px;
+  background: none;
+  border-left: 1px solid #1b1f34;
+  border-top: 1px solid #1b1f34;
+  transform: rotate(225deg);
+  background: #171a21;
+}
+
+
+/*邀请链接分页*/
+.Link-middle .ivu-page-item{
+  background-color: #171a21;
+}
+.Link-middle .ivu-page-next, .ivu-page-prev{
+  background-color: #171a21;
+}
+.Link-middle .pageOrder .ivu-page-item-active {
+  background-color: #fff;
+}
+/*白色分页*/
+.whitepage .ivu-page-item{
+  background-color: #fff;
+  color: #333;
+}
+.whitepage .ivu-page-item a{
+  color: #333;
+}
+.whitepage .ivu-page-next,
+.whitepage .ivu-page-prev{
+  background-color: #fff;
+  border-color: #eee;
+}
+.whitepage .pageOrder .ivu-page-item-active {
+  background-color: #eee;
+}
+
+/**/
+
+
+
+
+/*我的推广*/
+ .mypromotion{
+   height: 100%;
+   width: 100%;
+   background: #272c39;
+   padding: 10px 0;
+ }
+.mypromotion .content{
+  width: 1200px;
+  margin: 0 auto;
+}
+.peopleNumber {
+ position: relative;
+ height: 122px;
+ width: 1200px;
+ padding: 30px 20px;
+ background: #171a21;
+ border-radius: 5px;
+}
+.peopleNumber .left{
+  float: left;
+  height: 60px;
+  border-right: 1px solid #272c39;
+}
+.peopleNumber .right{
+  float: left;
+  margin-left: 70px;
+}
+.peopleNumber .big{
+  color: #fff;
+  font-size: 18px;
+  line-height: 18px;
+  margin-right: 206px;
+}
+.peopleNumber .small{
+  margin-top: 20px;
+  color: #999;
+  font-size: 14px;
+}
+.peopleNumber .small span{
+  color: #fff;
+}
+.promotionmoney .margin-left-70{
+ margin-left: 70px;
+}
+.promotionmoney {
+  position: relative;
+  height: 122px;
+  width: 1200px;
+  margin-top: 10px;
+  padding: 30px 20px;
+  background: #171a21;
+  border-radius: 5px;
+}
+.promotionmoney .left{
+  float: left;
+  height: 60px;
+  border-right: 1px solid #272c39;
+}
+.promotionmoney .right{
+  float: left;
+  margin-left: 70px;
+}
+.promotionmoney .big{
+  color: #fff;
+  font-size: 18px;
+  line-height: 18px;
+  margin-right: 206px;
+}
+.promotionmoney .small{
+  display: inline-block;
+  margin-top: 20px;
+  color: #999;
+  font-size: 14px;
+  line-height: 14px;
+}
+.promotionmoney .small span{
+  color: #fff;
+  margin-left: 20px;
+}
+.promotionmoney .right button{
+  vertical-align: super;
+  width: 50px;
+  height: 26px;
+  margin-left: 40px;
+  cursor: pointer;
+  border-radius: 5px;
+  outline:none;
+  background-color: #f3ba2f;
+  color: #fff;
+  line-height: 26px;
+  font-size: 14px;
+  border: none;
+}
+.dynamicdata {
+ position: relative;
+ height: 360px;
+ width: 1200px;
+ margin-top: 10px;
+ background: #171a21;
+ border-radius: 5px;
+}
+.dynamicdata .header{
+  position: relative;
+  height: 80px;
+  width: 1160px;
+  margin: 0 20px;
+  border-bottom: 1px solid #272c39;
+}
+.dynamicdata .title{
+  display: inline-block;
+  line-height: 80px !important;
+  font-size: 18px;
+  line-height: 18px;
+  color: #fff;
+}
+.dynamicdata .header button{
+  position: absolute;
+  right: 0;
+  bottom: 30px;
+  width: 80px;
+  height: 26px;
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+  background-color: #f3ba2f;
+  color: #fff;
+  line-height: 26px;
+  font-size: 14px;
+  border: none;
+}
+.dynamicdata .items{
+  height: 280px;
+  width: 1200px;
+}
+.dynamicdata .item{
+  float: left;
+  height: 200px;
+  width: 300px;
+  margin-top: 40px;
+  padding-top: 30px;
+  border-right: 1px solid #272c39;
+  text-align: center;
+}
+.dynamicdata .item span{
+  font-size: 54px;
+  width: 54px;
+}
+.dynamicdata .name{
+  margin-top: 20px;
+  color: #fff;
+  font-size: 18px;
+}
+.dynamicdata .desc{
+  margin-top: 20px;
+  color: #999;
+  font-size: 18px;
+}
+.promotionrule {
+ width: 1200px;
+ height: 300px;
+ margin-top: 10px;
+ background: #171a21;
+ border-radius: 5px;
+ padding-top: 40px;
+ padding-left: 20px;
+}
+.promotionrule .title{
+  margin-bottom: 30px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 18px;
+}
+.promotionrule .rules{
+  font-size: 14px;
+  color: #999;
+  line-height: 14px;
+  margin-bottom: 25px;
+}
+
+/*我的推广-划转*/
+.promotiontransfer .margin-bottom-20{margin-bottom: 20px}
+.promotiontransfer .usdt{
+  display: inline-block;
+  color: #eee;
+  font-size: 12px;
+  line-height: 40px;
+  margin-left: 20px;
+}
+.promotiontransfer {
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(51,51,51,.6);
+}
+.promotiontransfer .promotionbox{
+  width: 540px;
+  height: 460px;
+  margin: 260px auto;
+  padding: 20px 20px 0 40px;
+  background: #272c39;
+  border-radius: 5px;
+}
+.promotiontransfer .close{
+  float: right;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.promotiontransfer .transfer-header{
+  margin-top: 20px;
+  font-family: MicrosoftYaHei;
+  font-size: 18px;
+  color: #eeeeee;
+}
+.promotiontransfer .input-title{
+  position: relative;
+  width: 460px;
+  font-family: MicrosoftYaHei;
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+.promotiontransfer .number input{
+  width: 370px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background: rgba(0,0,0,0);
+  color: #999;
+  padding: 0 10px;
+  margin-bottom: 20px;
+  outline: none;
+}
+.promotiontransfer .ivu-input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  font-size: 12px;
+}
+.promotiontransfer .ivu-input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  font-size: 12px;
+}
+.promotiontransfer .ivu-input::-moz-placeholder { /* Mozilla Firefox 19+ */
+  font-size: 12px;
+}
+.promotiontransfer .ivu-input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  font-size: 12px;
+}
+.promotiontransfer .transfer{
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  margin-right: 50px;
+  background: #f3ba2f;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+}
+.promotiontransfer .cancle{
+  height: 40px;
+  color: #ffffff;
+  border: none;
+  background: rgba(0,0,0,0);
+  outline: none;
+  cursor: pointer;
+}
+
+.ivu-layout-footer{
+  background: none;
+}
+
+/*邀请记录*/
+.morerecord {
+  height: 100%;
+  width: 100%;
+  background: #272c39;
+  padding: 10px 0;
+}
+.morerecord .content{
+  position: relative;
+  width: 1200px;
+  height: 387px;
+  margin: 0 auto;
+  background: #171a21;
+  border-radius: 5px;
+  min-height: 800px;
+}
+.morerecord .record-header{
+  position: relative;
+  width:1160px;
+  height:80px;
+  margin: 0 20px;
+  line-height:80px;
+  border-bottom:1px solid #272c39;
+}
+.morerecord .head-left{
+  float: left;
+  height: 80px;
+}
+.morerecord .head-left .title{
+  display: inline-block;
+  font-size:18px;
+  line-height: 80px;
+  color: #fff;
+  margin-right: 70px;
+}
+.morerecord .head-left .title:hover{color: #f3ba2f;}
+.morerecord .activea,.morerecord .activeb,.morerecord .activec{
+  border-bottom: 2px solid #f3ba2f;
+  height: 78px;
+  color: #f3ba2f !important;
+}
+
+.invitedrecord .head-right{
+  position: absolute;
+  top: 0;
+  right: 20px;
+  height: 80px;
+}
+.invitedrecord .dealrecord{
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.invitedrecord .dealrecord p{
+  display: inline-block;
+}
+.invitedrecord .dealrecord input{
+  width: 70px;
+  height: 26px;
+  margin-right: 20px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  background: rgba(0,0,0,0);
+  color: #fff;
+  padding: 5px 10px;
+}
+.invitedrecord .dealrecord span{
+  font-size: 14px;
+  color: #eee;
+  margin: 0 5px;
+}
+.invitedrecord .dealrecord p{
+  font-size: 14px;
+  color: #eee;
+  margin-right: 10px;
+}
+
+
+.invitedrecord .usdt{color: #999;}
+.invitedrecord {
+  width: 1200px;
+  height: 300px;
+  background: #171a21;
+  padding: 0 20px;
+  border-radius: 5px;
+}
+.invitedrecord .ontable p{
+  display: inline-block;
+  width: 270px;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  font-size: 14px;
+}
+.invitedrecord table{
+  width: 100%;
+  border-spacing: 0;
+  border: 1px solid #272c39;
+  border-radius: 5px;
+}
+.invitedrecord th.state,.invitedrecord td.state{
+  width: 80px;
+}
+.invitedrecord th,.invitedrecord td{
+  width: 270px;
+  border-bottom: 1px solid #272c39;
+}
+.invitedrecord tr{
+  height: 50px;
+}
+.invitedrecord tr.tr-first:hover{
+  background: #171a21;
+}
+.invitedrecord tr:hover{
+  background: #272c39;
+}
+.invitedrecord th{
+  color: #999999;
+  text-align: left;
+  padding-left: 10px;
+  border-bottom: 1px solid #272c39;
+}
+.invitedrecord td{
+  font-family: MicrosoftYaHei;
+  font-size: 14px;
+  color: #fefefe;
+  padding: 0 10px;
+}
+.invitedrecord .active{
+  color: #f3ba2f;
+}
+.invitedrecord .page{
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+/*返佣记录*/
+.returncommission .head-right{
+  position: absolute;
+  top: 0;
+  right: 20px;
+  height: 80px;
+}
+.returncommission .dealrecord{
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.returncommission .dealrecord input{
+  width: 70px;
+  height: 26px;
+  margin-right: 20px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  background: rgba(0,0,0,0);
+  color: #fff;
+  padding: 5px 10px;
+}
+.returncommission .dealrecord span{
+  font-size: 14px;
+  color: #eee;
+  margin: 0 5px;
+}
+.returncommission .dealrecord p{
+  display: inline-block;
+  font-size: 14px;
+  line-height: 26px;
+  color: #eee;
+  margin-right: 10px;
+}
+.returncommission .timesearch{
+  display: flex;
+}
+
+
+.returncommission .usdt{color: #999;}
+.returncommission {
+  width: 1200px;
+  height: 300px;
+  background: #171a21;
+  padding: 0 20px;
+  border-radius: 5px;
+}
+.returncommission .ontable p{
+  display: inline-block;
+  width: 258px;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  font-size: 14px;
+}
+.returncommission table{
+  width: 100%;
+  border-spacing: 0;
+  border-radius: 5px;
+  border: 1px solid #272c39;
+}
+.returncommission th.money,.returncommission td.money{
+  width: 140px;
+}
+.returncommission th,.returncommission td{
+  width: 258px;
+  border-bottom: 1px solid #272c39;
+}
+.returncommission tr{
+  height: 50px;
+}
+.returncommission tr.tr-first:hover{
+  background: #171a21;
+}
+.returncommission tr:hover{
+  background: #272c39;
+}
+.returncommission th{
+  color: #999999;
+  text-align: left;
+  padding-left: 10px;
+  border-bottom: 1px solid #272c39;
+}
+.returncommission td{
+  font-family: MicrosoftYaHei;
+  font-size: 14px;
+  color: #fefefe;
+  padding: 0 10px;
+}
+.returncommission .page{
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+/*划转记录*/
+.transferrecord .head-right{
+  position: absolute;
+  top: 0;
+  right: 20px;
+  height: 80px;
+}
+.transferrecord .dealrecord{
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.transferrecord .dealrecord input{
+  width: 70px;
+  height: 26px;
+  margin-right: 20px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  background: rgba(0,0,0,0);
+  color: #fff;
+  padding: 5px 10px;
+}
+.transferrecord .dealrecord span{
+  font-size: 14px;
+  color: #eee;
+  margin: 0 5px;
+}
+.transferrecord .dealrecord p{
+  display: inline-block;
+  font-size: 14px;
+  line-height: 26px;
+  color: #eee;
+  margin-right: 10px;
+}
+.transferrecord .timesearch{
+  display: flex;
+}
+
+
+.transferrecord .usdt{color: #999;}
+.transferrecord {
+  width: 1200px;
+  height: 300px;
+  background: #171a21;
+  padding: 0 20px;
+  border-radius: 5px;
+}
+.transferrecord .ontable p{
+  display: inline-block;
+  width: 270px;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  font-size: 14px;
+}
+.transferrecord table{
+  width: 100%;
+  border-spacing: 0;
+  border-radius: 5px;
+  border: 1px solid #272c39;
+}
+.transferrecord th.opration,.transferrecord td.opration{
+  width: 80px;
+}
+.transferrecord th,.transferrecord td{
+  width: 270px;
+  border-bottom: 1px solid #272c39;
+}
+.transferrecord tr{
+  height: 50px;
+}
+.transferrecord tr.tr-first:hover{
+  background: #171a21;
+}
+.transferrecord tr:hover{
+  background: #272c39;
+}
+.transferrecord th{
+  color: #999999;
+  text-align: left;
+  padding-left: 10px;
+  border-bottom: 1px solid #272c39;
+}
+.transferrecord td{
+  font-family: MicrosoftYaHei;
+  font-size: 14px;
+  color: #fff;
+  padding: 0 10px;
+}
+.transferrecord .opration a{color: #fff;}
+.transferrecord .opration:hover a{
+  color: #f3ba2f;
+}
+.transferrecord .page{
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+/*记录-导出*/
+.recordderive{
+  position: absolute;
+  /*display: flex;*/
+  top: 140px;
+  left: 550px;
+  width: 140px;
+  height: 50px;
+  padding: 0;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  line-height: 50px;
+  border-radius: 5px;
+  background: #272c39;
+}
+.recordderive .icon-success-gou{
+  display: inline-block;
+}
+.recordderive p{
+  margin-left: 10px;
+  display: inline-block;
+}
+
+/*划转记录-查看*/
+.transfercheck .margin-bottom-20{margin-bottom: 20px}
+.transfercheck .usdt{
+  display: inline-block;
+  color: #eee;
+  font-size: 12px;
+  line-height: 40px;
+  margin-left: 20px;
+}
+.transfercheck {
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(51,51,51,.6);
+}
+.transfercheck .promotionbox{
+  width: 540px;
+  height: 460px;
+  margin: 260px auto;
+  padding: 20px 20px 0 40px;
+  background: #272c39;
+  border-radius: 5px;
+}
+.transfercheck .close{
+  float: right;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.transfercheck .transfer-header{
+  margin-top: 20px;
+  font-family: MicrosoftYaHei;
+  font-size: 18px;
+  color: #eeeeee;
+}
+.transfercheck .input-title{
+  position: relative;
+  width: 460px;
+  font-family: MicrosoftYaHei;
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+.transfercheck .number input{
+  width: 370px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background: rgba(0,0,0,0);
+  color: #999;
+  padding: 0 10px;
+  margin-bottom: 20px;
+  outline: none;
+}
+.transfercheck .transfer{
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  margin-right: 50px;
+  background: #f3ba2f;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+}
+.transfercheck .cancle{
+  height: 40px;
+  color: #ffffff;
+  border: none;
+  background: rgba(0,0,0,0);
+  outline: none;
+  cursor: pointer;
+}
+
+/*时间选择器*/
+.ivu-picker-panel-icon-btn{
+  margin: 4px 0 0 !important;
+}
+.ivu-date-picker-header {
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  border-bottom: 1px solid #e9eaec;
+}
+.ivu-date-picker-cells span {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+}
+.ivu-date-picker-cells span.ivu-date-picker-cells-cell{
+  width: 28px;
+  height: 28px;
+  margin: 0;
+}
+.ivu-date-picker-cells-header span {
+  line-height: 24px !important;
+  text-align: center !important;
+  margin: 2px !important;
+  color: #bbbec4 !important;
+}
+.time .ivu-picker-panel-body{
+  background: #272c39;
+}
+.time .ivu-date-picker-cells-cell-selected em,
+.time .ivu-date-picker-cells-cell-selected:hover em{
+  background: #f3ba2f!important;
+}
+.time .ivu-date-picker-header-label:hover,
+.time .ivu-picker-panel-icon-btn:hover{
+  color: #f3ba2f;
+}
+.time .ivu-date-picker-cells-cell-next-month em,
+.time .ivu-date-picker-cells-cell-prev-month em{
+  color: #434a5a;
+}
+.time .ivu-date-picker-cells{
+  color: #eee;
+}
+.time .ivu-date-picker-cells-cell:hover em{
+  background: #f3ba2f!important;
+}
+.time .ivu-date-picker-header{
+  border-color: #272c39;
+}
+.time .ivu-date-picker-header{
+  color: #fff;
+}
+.time .ivu-input:focus{
+  box-shadow: 0px 0px 0px #fff;
+  border-color: white;
+}
+.time .ivu-date-picker-focused input{
+  border-color: white;
+}
+.time .top-tab{
+  position: relative;
+}
+.time .ivu-input{
+  width: 100px !important;
+  background: none;
+  height: 26px;
+  padding: 0;
+  text-align: center;
+  border-radius: 5px;
+  outline: none;
+  color: #eee;
+  font-size: 12px;
+}
+.time .ivu-input:hover{
+  border-color: #fff;
+}
+.time .ivu-input-icon{
+  z-index:-99;
+  display: none;
+}
+.time .ivu-col-span-3{
+  width: 120px;
+  margin-left: 10px;
+}
+.time .ivu-col-span-2{
+  width: 16px;
+}
+.time .ivu-col-span-2 .ivu-icon-ios-minus-empty:before{
+  padding-left: 10px;
+  line-height: 26px;
+}
+
+
+
+
+/*账号管理*/
+.accountmanagement {
+  width: 100%;
+  height: 100%;
+  background: #f4f4f4;
+  position: relative;
+  padding-bottom: 10px;
+}
+.accountmanagement	.accountSettingInner{
+  width:1200px;
+  margin:0 auto;
+  padding-top:10px;
+}
+/*账号管理-绑定账号*/
+.accountbind {
+  width: 100%;
+  background: #fff;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.accountbind .apiManagementPadding {
+  padding: 0 20px 40px;
+  width: 100%;
+  height: 100%;
+}
+.accountbind .titleLine {
+  height: 70px;
+  padding: 30px 0 20px;
+  line-height: 20px;
+  width: 100%;
+  overflow: hidden;
+}
+.accountbind .title {
+  font-size: 18px;
+  font-family: "Microsoft YaHei";
+  color: #333;
+  float: left;
+  width: 100px;
+  text-align: left;
+  height: 20px;
+}
+
+.accountbind .secretKey {
+  width: 81px;
+  height: 20px;
+  float: right;
+  display: flex;
+  margin-right: 10px;
+  text-align: right;
+  overflow: hidden;
+  cursor:pointer;
+}
+.accountbind .secretKeySpan {
+  width: 15px;
+  height: 20px;
+  margin-right: 10px;
+  display: -webkit-flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+.accountbind .KeySpan{
+  display: inline-block;
+  width:15px;
+  height:15px;
+}
+.secretKey .icon-add-yellow:before{
+  color:#666;
+}
+.secretKey:hover .icon-add-yellow:before{
+  color:#f3ba2f;
+}
+.accountbind .secretKeyZi{
+  font-size:14px;
+  font-family: "Microsoft YaHei";
+  color:#666;
+  width:56px;
+  text-align:right;
+}
+.secretKey:hover .secretKeyZi:hover{
+  color:#f3ba2f;
+}
+.accountbind .apiManagementContent {
+  border: 1px solid #eee;
+  border-radius: 3px;
+}
+.accountbind .scroll{
+  width: 100%;
+}
+.accountbind .apiContentdan {
+  width: 100%;
+  padding: 0 10px;
+  height: 50px;
+  overflow: hidden;
+}
+.accountbind .contentTitle{
+  display:inline-block;
+  height:50px;
+  line-height:50px;
+  font-size:14px;
+  color:#333;
+  font-family: "Microsoft YaHei";
+  float:left;
+}
+.accountbind .contentTitle:nth-child(3){
+  width:40px;
+  float:right;
+  text-align:right!important;
+}
+.accountbind .contentTitle:nth-child(1){
+  width:263px;
+}
+.accountbind .contentTitle:nth-child(2){
+  width: 290px;
+}
+.accountbind .contentLine{
+  border-bottom:1px solid #eee;
+}
+.accountbind .contentTitle {
+  color: #666 !important;
+}
+.accountbind .opration {
+  color: #333;
+}
+.accountbind .opration:hover{
+  color: #f3ba2f;
+}
+.accountbind .pageOrder{
+  text-align: center;
+  margin-top: 40px;
+}
+/*账号管理-账户与安全-修改手机-验证旧手机*/
+.accScuPhone .margin-bottom-20{margin-bottom: 20px}
+.accScuPhone {
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(51,51,51,.6);
+}
+.accScuPhonebox{
+  width: 540px;
+  height: 267px;
+  margin: 300px auto;
+  padding: 20px 20px 0 40px;
+  background: #fff;
+  border-radius: 5px;
+}
+.accScuPhone .close{
+  float: right;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.accScuPhone .transfer-header{
+  font-family: MicrosoftYaHei;
+  font-size: 18px;
+  line-height: 18px;
+  color: #333;
+  margin-top: 20px;
+}
+.accScuPhone .input-title{
+  position: relative;
+  width: 460px;
+  font-family: MicrosoftYaHei;
+  font-size: 14px;
+  line-height: 14px;
+  margin-bottom: 10px;
+  color: #666;
+}
+.accScuPhone .input-title span{margin-left: 60px;}
+.accScuPhone .transfer{
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  margin-right: 50px;
+  background: #f3ba2f;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+}
+.accScuPhone .cancle{
+  height: 40px;
+  color: #666;
+  border: none;
+  background: rgba(0,0,0,0);
+  outline: none;
+  cursor: pointer;
+}
+.accScuPhone ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: #ccc;
+}
+.accScuPhone :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #ccc;
+}
+.accScuPhone ::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #ccc;
+}
+.accScuPhone :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #ccc;
+}
+/*账号管理-账户与安全-修改手机-新手机号*/
+.accScuPhoneTwo .margin-bottom-20{margin-bottom: 20px}
+.accScuPhoneTwo {
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(51,51,51,.6);
+}
+.accScuPhoneTwobox{
+  width: 540px;
+  height: 280px;
+  margin: 300px auto;
+  padding: 20px 20px 0 40px;
+  background: #fff;
+  border-radius: 5px;
+}
+.accScuPhoneTwo .close{
+  float: right;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.accScuPhoneTwo .transfer-header{
+  font-family: MicrosoftYaHei;
+  font-size: 18px;
+  color: #333;
+  margin-top: 20px;
+}
+.accScuPhoneTwo .input-title{
+  position: relative;
+  width: 460px;
+  font-family: MicrosoftYaHei;
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #666;
+}
+.accScuPhoneTwo .phonenumchange,
+.accScuPhoneTwo .anumber{
+  display: flex;
+  width: 460px;
+  height: 40px;
+  margin-bottom: 30px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+.accScuPhoneTwo .phonenumchange input,
+.accScuPhoneTwo .anumber input{
+  width: 360px;
+  height: 40px;
+  background: rgba(0,0,0,0);
+  color: #666;
+  padding: 0 10px;
+  margin-bottom: 40px;
+  margin-top: -3px!important;
+  outline: none;
+}
+.accScuPhoneTwo .anumber button{
+  padding: 0;
+  width: 100px;
+  height: 40px;
+  margin-top: -1px;
+  margin-right: -1px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #f3ba2f;
+  border: none;
+  color: #fff;
+  outline: none;
+}
+.accScuPhoneTwo .transfer{
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  margin-top: 10px;
+  margin-right: 50px;
+  background: #f3ba2f;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+}
+.accScuPhoneTwo .cancle{
+  height: 40px;
+  color: #666;
+  border: none;
+  background: rgba(0,0,0,0);
+  outline: none;
+  cursor: pointer;
+}
+.accScuPhoneTwo ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: #ccc;
+}
+.accScuPhoneTwo :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #ccc;
+}
+.accScuPhoneTwo ::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #ccc;
+}
+.accScuPhoneTwo :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #ccc;
+}
+.accScuPhoneTwo input::-webkit-outer-spin-button,
+.accScuPhoneTwo input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.accScuPhoneTwo input[type="number"]{
+  -moz-appearance: textfield;
+}
+.accScuPhoneTwo .country,
+.accScuPhoneTwo .num{
+  font-size: 14px;
+  color: #666;
+}
+
+/*账号管理-账户与安全-谷歌绑定*/
+.googlebind .ivu-input{
+  color: #666!important;
+}
+.googlebind .margin-bottom{
+  margin-bottom: 30px
+}
+.googlebind .margin-bottom-20{margin-bottom: 20px}
+.googlebind {
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(51,51,51,.6);
+}
+.googlebindbox{
+  width: 1200px;
+  height: 773px;
+  margin: 100px auto;
+  background: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.googlebind .head{
+  width: 1200px;
+  border-bottom: 1px solid #eee;
+  padding: 20px 20px 30px 40px;
+}
+.googlebind .close{
+  float: right;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.googlebind .transfer-header{
+  font-family: MicrosoftYaHei;
+  font-size: 18px;
+  line-height: 18px;
+  color: #333;
+  margin-top: 20px;
+}
+.googlebind .introduce{
+  font-size: 16px;
+  line-height: 16px;
+  color: #666;
+}
+.googlebind .content{
+  padding: 0 20px 40px 20px;
+}
+.googlebind .item{
+  padding: 30px 20px;
+  border-bottom: 1px solid #eee;
+}
+.googlebind .item:last-child{border:none;}
+.googlebind .download{display: flex;}
+.googlebind .download button{
+  display: flex;
+  align-items: center;
+  width: 170px;
+  height: 40px;
+  margin-top: 30px;
+  margin-right: 70px;
+  background-color: #f3ba2f;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 14px;
+  color: #000;
+}
+.googlebind .icon-apple{margin-right: 0;}
+.googlebind .icon-apple:before,
+.googlebind .icon-google:before{
+  display: block;
+  max-width: 26px;
+  height: 40px;
+  line-height: 40px;
+  margin-right: 15px;
+  font-size: 26px;
+  margin-left: 30px;
+}
+.googlebind .secp{
+  font-size: 14px;
+  line-height: 14px;
+  color: #666;
+  margin-top: 10px;
+}
+.googlebind .redp{
+  color: #e73636;
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 14px;
+}
+.googlebind .DQcode{
+  display: flex;
+  align-items: flex-end;
+  padding-top: 24px;
+}
+.googlebind .DQcode img{
+  height: 100px;
+  width: 100px;
+  background: pink;
+}
+.googlebind .secretkey{
+  margin-left: 10px;
+}
+.googlebind .secretkey p{
+  font-size: 14px;
+  line-height: 14px;
+  color: #333;
+  margin-top: 10px;
+}
+.googlebind .copy{
+  color: #f3ba2f;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.googlebind .item input{
+  display: block;
+  width: 396px;
+  height: 40px;
+  margin: 30px 0;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 12px;
+  color: #999;
+}
+.googlebind .transfer{
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  margin-top: 5px;
+  margin-right: 50px;
+  background: #f3ba2f;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+}
+.googlebind .cancle{
+  height: 40px;
+  color: #666;
+  border: none;
+  background: rgba(0,0,0,0);
+  outline: none;
+  cursor: pointer;
+}
+.googlebind ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: #999;
+}
+.googlebind :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #999;
+}
+.googlebind ::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #999;
+}
+.googlebind :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #999;
+}
+.googlebind input::-webkit-outer-spin-button,
+.googlebind input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.googlebind input[type="number"]{
+  -moz-appearance: textfield;
+}
+.googlebind .tips{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 400px;
+  left: 550px;
+  width: 140px;
+  height: 50px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 50px;
+  border-radius: 5px;
+  background: #272c39;
+}
+.googlebind .icon-success-gou{margin-right: 10px;}
+
+/*账号管理-账户与安全-登录密码修改*/
+.loginpasswordchange .ivu-input{
+  color: #666!important;
+}
+.loginpasswordchange {
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(51,51,51,.6);
+}
+.loginpasswordchangebox{
+  width: 540px;
+  height: 457px;
+  margin: 300px auto;
+  padding: 20px 20px 0 40px;
+  background: #fff;
+  border-radius: 5px;
+}
+.loginpasswordchange .close{
+  float: right;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.loginpasswordchange .transfer-header{
+  font-family: MicrosoftYaHei;
+  font-size: 18px;
+  line-height: 18px;
+  color: #333;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.loginpasswordchange .input-title{
+  position: relative;
+  width: 460px;
+  font-family: MicrosoftYaHei;
+  font-size: 14px;
+  line-height: 14px;
+  margin-bottom: 10px;
+  color: #666;
+}
+.loginpasswordchange input{
+  display: flex;
+  width: 460px;
+  height: 40px;
+  margin-bottom: 30px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  color: #ccc;
+  padding: 0 10px;
+}
+.loginpasswordchange .transfer{
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  margin-top: 10px;
+  margin-right: 50px;
+  background: #f3ba2f;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+}
+.loginpasswordchange .cancle{
+  height: 40px;
+  color: #666;
+  border: none;
+  background: rgba(0,0,0,0);
+  outline: none;
+  cursor: pointer;
+}
+.loginpasswordchange ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: #ccc;
+}
+.loginpasswordchange :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #ccc;
+}
+.loginpasswordchange ::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #ccc;
+}
+.loginpasswordchange :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #ccc;
+}
+.loginpasswordchange input::-webkit-outer-spin-button,
+.loginpasswordchange input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.loginpasswordchange input[type="number"]{
+  -moz-appearance: textfield;
+}
+
+/*账号管理-账户与安全-资金密码修改-验证邮箱*/
+.moneypassword .ivu-input{
+  color: #666!important;
+}
+.moneypassword .margin-bottom-20{margin-bottom: 20px}
+.moneypassword {
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(51,51,51,.6);
+}
+.moneypasswordbox{
+  width: 540px;
+  height: 363px;
+  margin: 300px auto;
+  padding: 20px 20px 0 40px;
+  background: #fff;
+  border-radius: 5px;
+}
+.moneypassword .close{
+  float: right;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.moneypassword .transfer-header{
+  font-family: MicrosoftYaHei;
+  font-size: 18px;
+  line-height: 18px;
+  color: #333;
+  margin-top: 20px;
+}
+.moneypassword .input-title{
+  position: relative;
+  width: 460px;
+  font-family: MicrosoftYaHei;
+  font-size: 14px;
+  line-height: 14px;
+  margin-bottom: 10px;
+  color: #666;
+}
+.moneypassword .number{
+  display: flex;
+}
+.moneypassword .number input{
+  width: 324px;
+  font-size: 16px;
+  color: #333;
+}
+.moneypassword input{
+  width: 460px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: rgba(0,0,0,0);
+  color: #ccc;
+  font-size: 12px;
+  padding: 0 10px;
+  margin-bottom: 40px;
+  outline: none;
+}
+.moneypassword .number button{
+  width: 100px;
+  height: 40px;
+  margin-left: 36px;
+  padding: 0;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  background: #f3ba2f;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.moneypassword .transfer{
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  margin-right: 50px;
+  background: #f3ba2f;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+}
+.moneypassword .cancle{
+  height: 40px;
+  color: #666;
+  border: none;
+  background: rgba(0,0,0,0);
+  outline: none;
+  cursor: pointer;
+}
+.moneypassword ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: #ccc;
+}
+.moneypassword :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #ccc;
+}
+.moneypassword ::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #ccc;
+}
+.moneypassword :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #ccc;
+}
+.moneypassword input::-webkit-outer-spin-button,
+.moneypassword input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.moneypassword input[type="number"]{
+  -moz-appearance: textfield;
+}
+
+/*账号管理-账户与安全-资金密码-修改新资金密码*/
+.moneypasswordtwo .ivu-input{
+  color: #666!important;
+}
+.moneypasswordtwo .margin-bottom-20{margin-bottom: 20px}
+.moneypasswordtwo {
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(51,51,51,.6);
+}
+.moneypasswordtwobox{
+  width: 540px;
+  height: 363px;
+  margin: 300px auto;
+  padding: 20px 20px 0 40px;
+  background: #fff;
+  border-radius: 5px;
+}
+.moneypasswordtwo .close{
+  float: right;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.moneypasswordtwo .transfer-header{
+  font-family: MicrosoftYaHei;
+  font-size: 18px;
+  line-height: 18px;
+  color: #333;
+  margin-top: 20px;
+}
+.moneypasswordtwo .input-title{
+  position: relative;
+  width: 460px;
+  font-family: MicrosoftYaHei;
+  font-size: 14px;
+  line-height: 14px;
+  margin-bottom: 10px;
+  color: #666;
+}
+.moneypasswordtwo input{
+  width: 460px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: rgba(0,0,0,0);
+  color: #ccc;
+  font-size: 12px;
+  padding: 0 10px;
+  margin-bottom: 40px;
+  outline: none;
+}
+.moneypasswordtwo .number button{
+  width: 100px;
+  height: 40px;
+  margin-left: 36px;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  background: #f3ba2f;
+  border: none;
+}
+.moneypasswordtwo .transfer{
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  margin-right: 50px;
+  background: #f3ba2f;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+}
+.moneypasswordtwo .cancle{
+  height: 40px;
+  color: #666;
+  border: none;
+  background: rgba(0,0,0,0);
+  outline: none;
+  cursor: pointer;
+}
+.moneypasswordtwo ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: #ccc;
+}
+.moneypasswordtwo :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #ccc;
+}
+.moneypasswordtwo ::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #ccc;
+}
+.moneypasswordtwo :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #ccc;
+}
+.moneypasswordtwo input::-webkit-outer-spin-button,
+.moneypasswordtwo input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.moneypasswordtwo input[type="number"]{
+  -moz-appearance: textfield;
+}
+
+/*账号管理-绑定账号-新增*/
+.newbindaccount .ivu-input{
+  color: #666!important;
+}
+.newbindaccount .margin-bottom-20{margin-bottom: 20px}
+.newbindaccount {
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(51,51,51,.6);
+}
+.newbindaccountbox{
+  width: 540px;
+  height: 363px;
+  margin: 260px auto;
+  padding: 20px 20px 0 40px;
+  background: #fff;
+  border-radius: 5px;
+}
+.newbindaccount .close{
+  float: right;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.newbindaccount .transfer-header{
+  margin-top: 20px;
+  font-family: MicrosoftYaHei;
+  font-size: 18px;
+  color: #333;
+}
+.newbindaccount .input-title{
+  position: relative;
+  width: 400px;
+  font-family: MicrosoftYaHei;
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #666;
+}
+.newbindaccount .number input{
+  width: 370px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: rgba(0,0,0,0);
+  color: #ccc;
+  padding: 0 10px;
+  margin-bottom: 20px;
+  outline: none;
+}
+.newbindaccount .transfer{
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  margin-right: 50px;
+  background: #f3ba2f;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+}
+.newbindaccount .cancle{
+  height: 40px;
+  color: #666;
+  border: none;
+  background: rgba(0,0,0,0);
+  outline: none;
+  cursor: pointer;
+}
+.newbindaccount ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: #ccc;
+}
+.newbindaccount :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #ccc;
+}
+.newbindaccount ::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #ccc;
+}
+.newbindaccount :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #ccc;
+}
+
+/*账号管理-绑定账号-删除*/
+.deletebindaccount .margin-bottom-20{margin-bottom: 20px}
+.deletebindaccount {
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(51,51,51,.6);
+}
+.deletebindaccountbox{
+  width: 540px;
+  height: 314px;
+  margin: 260px auto;
+  padding: 20px 20px 0 40px;
+  background: #fff;
+  border-radius: 5px;
+}
+.deletebindaccount .close{
+  float: right;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.deletebindaccount .transfer-header{
+  margin-top: 20px;
+  font-family: MicrosoftYaHei;
+  font-size: 18px;
+  color: #333;
+}
+.deletebindaccount .tips{
+  position: relative;
+  font-family: MicrosoftYaHei;
+  font-size: 14px;
+  margin-top: 60px;
+  margin-bottom: 100px;
+  color: #333;
+}
+.deletebindaccount .transfer{
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  margin-right: 50px;
+  background: #f3ba2f;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+}
+.deletebindaccount .cancle{
+  height: 40px;
+  color: #666;
+  border: none;
+  background: rgba(0,0,0,0);
+  outline: none;
+  cursor: pointer;
+}
+.deletebindaccount ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: #ccc;
+}
+.deletebindaccount :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #ccc;
+}
+.deletebindaccount ::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #ccc;
+}
+.deletebindaccount :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #ccc;
+}
+
+
+/*账号管理-账户与安全-二次验证状态修改验证-iview select下拉框*/
+.verifysecond .ivu-input{
+  color: #666666 !important;
+}
+.ivu-form-item.verifyformitem{
+  height: 100px;
+}
+.verifysecond .ivu-select{
+  color: #333;
+}
+.verifysecond .ivu-select-single .ivu-select-selection{
+  height: 40px;
+}
+.verifysecond .ivu-select-selection{
+  background: rgba(0,0,0,0);
+  border-radius: 5px;
+  border-color: #eee;
+}
+.verifysecond .ivu-select-item-selected, .ivu-select-item-selected:hover{
+  background: rgba(0,0,0,0);
+}
+.verifysecond .ivu-select-item-selected.ivu-select-item-focus{
+  background: none;
+}
+.verifysecond .ivu-select-visible .ivu-select-selection{
+  box-shadow: none;
+}
+.verifysecond .ivu-select-single .ivu-select-selection .ivu-select-placeholder,
+.verifysecond .ivu-select-single .ivu-select-selection .ivu-select-selected-value{
+  height: 40px;
+  font-size: 14px;
+  line-height: 40px;
+  padding-left: 10px;
+}
+.verifysecond .ivu-select-single .ivu-select-selection .ivu-select-placeholder{
+  color: #333;
+}
+.verifysecond .ivu-select-arrow{
+  right: 10px;
+  color: #333;
+}
+.verifysecond .ivu-icon-arrow-down-b:before{
+  content: "\F3D0";
+}
+.verifysecond .ivu-select-dropdown{
+  margin-top: 0;
+  border-radius: 5px;
+  padding-bottom: 10px !important;
+}
+.verifysecond .ivu-select-item{
+  padding: 0 10px;
+  height: 30px;
+  line-height: 30px;
+  color: #666;
+  font-size: 14px !important;
+}
+.verifysecond .ivu-select-item:hover{
+  background: #edeef4;
+  color: #f3ba2f;
+}
+
+/*账号管理-账户与安全-二次验证状态验证-邮箱、手机input框*/
+.verifysecond .inputline .ivu-input-wrapper{margin-bottom: 40px;}
+.verifysecond .inputline .ivu-form-item{
+  margin-bottom: 0;
+  width: 360px;
+}
+.verifysecond .inputline .ivu-input{
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+  font-size: 14px;
+  color: #666;
+  border-color: #eee;
+  border-right: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.verifysecond .googleinput .ivu-input{
+  width: 460px;
+  border-right: 1px solid #ccc;
+}
+.ivu-input:focus{
+  box-shadow: none;
+}
+
+
+.AccountVerify{
+  min-height: 750px;
+}
+/*登录页面更改样式*/
+.login-content .ivu-form-item{
+  width: 400px;
+}
+.login .login-content{
+  display: inline-block;
+}
+.login .loginright,
+.AccountVerify .loginright,
+.ResetPassword .loginright,
+.SafetyVerification .loginright{
+  display: inline-block;
+}
+.login .loginright{width: 40px;}
+.login .loginright img,
+.AccountVerify .loginright img,
+.ResetPassword .loginright img,
+.SafetyVerification .loginright img{
+  width: 670px;
+  margin-left: 125px;
+}
+.login .ivu-form-item-error .ivu-input{
+  border: none!important;
+  border-bottom: 1px solid #e13232 !important;
+}
+.login .ivu-form-item-error .ivu-input:focus{
+  box-shadow: none;
+}
+.login .ivu-input::-webkit-input-placeholder { /* WebKit browsers */
+  color:    #95a1bd;
+}
+.login .ivu-input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color:    #95a1bd;
+}
+.login .ivu-input::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color:    #95a1bd;
+}
+.login .ivu-input:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color:    #95a1bd;
+}
+.login .ivu-form-item-content{
+  line-height: normal;
+}
+.Login_div .login .login-wrap .login-content form label{
+  margin-left: 2px;
+}
+.login .ivu-input:focus{
+  border-color: #f3ba2f!important;
+}
+.loginbuttonline{
+  width: 400px;
+  text-align: center;
+}
+.loginpaswline,
+loginverifyline{
+  position: relative;
+}
+/*重置登录密码*/
+.AccountVerify .codeNum .login_img {
+  position: absolute;
+  right: 10px;
+  bottom: 5px;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+}
+.resetaccountline{
+  position: relative;
+}
+.resetaccountline .reset {
+  position: absolute;
+  right: 10px;
+  bottom: -18px;
+  color: #95a1bd;
+  font-size: 12px;
+}
+.login .ivu-input{width: 100%;}
+
+.icon_reddit, .icon_tem{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+.icon_reddit{
+    margin-right: 20px;
+    line-height: 38px;
+}
+.icon_tem img{
+  display: block;
+  padding-top: 2px;
+}
+.icon_reddit img{
+  display: block;
+  padding-top: 2px;
+}
+
+.fakeswitch{
+  position: absolute;
+  right: 60px;
+  bottom: 15px;
+  width: 40px;
+  height: 20px;
+  background: rgba(0,0,0,0);
+  cursor: pointer;
+}
+.regetCode span{
+  display: block;
+  height: 40px;
+  line-height: 40px;
+}
+.accountSecurityTitleIcon .icon-mail:before,
+.accountSecurityTitleIcon .icon-phone1:before,
+.accountSecurityTitleIcon .icon-lock:before,
+.accountSecurityTitleIcon .icon-key1:before{
+  color: #666;
+  font-size: 18px;
+}
+.accountSecurityTitleIcon .icon-G2:before{
+  color: #666;
+  font-size: 16px;
+}
+.oprationsecverifyinfo{
+  line-height: 40px;
+  padding-left: 10px;
+  color: #666;
+  font-size: 14px;
+}
+.whitespace{
+  height: 50px;
+}
+.googlespace{
+  margin-bottom: 50px;
+}
+.googlespace .ivu-input{
+  width: 460px!important;
+}
+.SafetyVerification .ivu-select-selection{
+  border: none;
+  border-bottom: 1px solid #95a1bd!important;
+  border-radius: 0;
+}
+.SafetyVerification .ivu-input{
+  border-radius: 0!important;
+}
+.SafetyVerification .ivu-input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  font-size: 14px;
+}
+.SafetyVerification .ivu-input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  font-size: 14px;
+}
+.SafetyVerification .ivu-input::-moz-placeholder { /* Mozilla Firefox 19+ */
+  font-size: 14px;
+}
+.SafetyVerification :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  font-size: 14px;
+}
+.SafetyVerification .ivu-form-item-error-tip{
+  padding-left: 2px;
+}
+.SafetyVerification_label{
+  color: #f3ba2f!important;
+  visibility: hidden;
+}
+.login .ivu-btn:before{
+  background: rgba(0,0,0,0);
+}
+.nationalSelect .ivu-select-dropdown{
+  background: #171a2a;
+}
+.nationalSelect .ivu-select-dropdown-list{
+  border-radius: 5px;
+}
+.nationalSelect .ivu-select-item-selected{
+  background: #171a2a;
+  border-radius: 0;
+}
+.record_nomassage{
+  width: 1160px;
+  text-align: center;
+  padding: 100px 0;
+}
+.icon-no_info{
+  font-size: 160px;
+  color: #fff;
+}
+.record_nomassage p{
+  margin-left: -15px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.code_send .ivu-btn{
+  padding: 0 !important;
+}
+
+
+.codeNum .ivu-btn-info:focus{
+  box-shadow: none !important;
+}
+/*绑定账号更改*/
+.email_phone_toogle {
+  position: relative;
+  display: flex;
+}
+.email_phone_toogle .tooglep{
+  color: #f3ba2f;
+  font-size: 14px;
+  cursor: pointer;
+}
+.phoneline{
+  display: flex;
+}
+.phoneline .idd{
+  width: 100px;
+}
+.phoneline .idd .ivu-form-item-content{
+  width: 40px;
+  line-height: 40px;
+  font-size: 14px;
+}
+.phoneline .idd .ivu-select-dropdown{
+  width: 460px!important;
+  top: 40px!important;
+  left: 0!important;
+}
+.phoneline .idd .ivu-select-dropdown::-webkit-scrollbar{
+  width: 10px;
+  background-color: #f4f4f4;
+}
+/*定义滚动条轨道 内阴影+圆角*/
+.phoneline .idd .ivu-select-dropdown::-webkit-scrollbar-track{
+  -webkit-box-shadow: none;
+  border-radius: 0px;
+  background-color: #fff;
+}
+/*定义滑块 内阴影+圆角*/
+.phoneline .idd .ivu-select-dropdown::-webkit-scrollbar-thumb{
+  border-radius: 5px;
+  -webkit-box-shadow: none;
+  background-color: #F5F5F5;
+}
+.phoneline .idd .ivu-select-dropdown .ivu-select-item{
+  display: flex;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px;
+  color: #666;
+}
+.phoneline .idd .ivu-select-item-selected.ivu-select-item-focus{
+  background: #fff;
+}
+.phoneline .idd .ivu-select-dropdown .ivu-select-item:hover{
+  color: #f3ba2f;
+}
+.phoneline .idd .country{
+  width: 400px;
+}
+.phoneline .idd .num{
+width: 60px;
+}
+.phoneline .idd .ivu-form-item-error-tip{
+  width: 100px;
+}
+.phoneline .idd .ivu-select-single .ivu-select-selection{
+  height: 40px;
+  border-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-color: #eee;
+  border-right: rgba(0,0,0,0);
+  box-shadow: none;
+}
+.ivu-select-single .ivu-select-selection .ivu-select-placeholder,
+.ivu-select-single .ivu-select-selection .ivu-select-selected-value{
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  padding-left: 10px;
+}
+.phoneline .phone .ivu-form-item-content{
+  width: 360px;
+}
+.phoneline .phone .ivu-input{
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+
+
+
+
+
+
+
+
+

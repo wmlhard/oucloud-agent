@@ -1,0 +1,6 @@
+{
+  "url":"http://192.168.2.220:5035/api/v1/",
+  "url_agent_reg": "https://www.bitboole.com/#/register",
+  "tokenUrl":"http://192.168.2.211:8401/api/v1/",
+  "phone_url":"http://192.168.2.220:5032/api/v1"
+}

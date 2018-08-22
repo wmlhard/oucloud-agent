@@ -1,0 +1,1270 @@
+//登录
+.Login_div {
+  .slot-item {
+    a {
+      font-size: 20px;
+      color: #fff;
+      border-right: 1px solid #fff;
+      padding-right: 25px;
+      margin-right: 25px;
+    }
+    a:hover {
+      color: #f3ba2f !important;
+      transition: all .3s ease-in-out;
+    }
+  }
+  .ivu-layout-content {
+    background: url("/../../static/img/bg.png") repeat-y 100% center;
+    background-size: 100% 100%;
+  }
+  .login {
+    width: 100%;
+    min-height: 735px;
+    padding: 150px 0 !important;
+    @media screen and (min-width: 1200px) {
+      .login-wrap {
+        width: 1200px !important;
+      }
+    }
+    .login-wrap {
+      width: 90%;
+      margin: 0 auto;
+      .login-content {
+        vertical-align: top;
+        width: 400px;
+        .title {
+          text-align: center;
+          font-size: 30px;
+          color: #eee;
+          margin-bottom: 50px;
+        }
+        form {
+          label {
+            visibility: hidden;
+            font-size: 14px;
+            color: #f3ba2f;
+          }
+          .ivu-form-item:nth-of-type(1) {
+            margin-bottom: 30px
+          }
+          .ivu-form-item:nth-of-type(2) {
+            margin-bottom: 40px
+          }
+          .ivu-form-item:nth-of-type(3) {
+            margin-bottom: 40px;
+            .login_img {
+              position: absolute;
+              right: 8px;
+              bottom: 5px;
+              width: 100px;
+              height: 40px;
+              cursor: pointer;
+            }
+          }
+          .ivu-form-item:nth-of-type(4) {
+            margin-bottom: 0
+          }
+          .set_account {
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+            margin-bottom: 0!important;
+            color: #95a1bd;
+            font-size: 14px;
+            cursor: pointer;
+            user-select: none;
+            &:hover{
+              color: #f3ba2f;
+            }
+            span {
+              color: #fff;
+              font-size: 14px;
+            }
+            .register_account {
+              color: #f3ba2f
+            }
+          }
+        }
+      }
+    }
+  }
+  .slide-fade {
+    background: #000f22;
+  }
+  .model {
+    padding: 40px;
+    .model-header {
+      .verify_way {
+        font-size: 18px;
+        color: #eee
+      }
+      .verify_tip {
+        font-size: 14px;
+        color: #999;
+        margin-top: 20px
+      }
+    }
+    .model-content {
+      margin-top: 20px;
+      .code {
+        font-size: 14px;
+        color: #fffefe
+      }
+      .code_send {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        margin-top: 10px;
+        input {
+          background: none;
+          border: 1px solid #edeef4;
+          width: 468px;
+          height: 40px;
+          border-bottom-left-radius: 5px;
+          border-top-left-radius: 5px;
+          color: #999;
+          padding-left: 10px;
+        }
+        button {
+          height: 40px;
+          width: 100px;
+          background: #f3ba2f;
+          border: none;
+          border-bottom-left-radius: 0 !important;
+          border-top-left-radius: 0 !important;
+          border-bottom-right-radius: 5px;
+          border-top-right-radius: 5px;
+          color: #fff;
+          font-size: 12px;
+          cursor: pointer;
+          user-select: none;
+        }
+      }
+    }
+    .model_footer {
+      margin-top: 30px;
+      .btn_sure {
+        width: 100px;
+        height: 40px;
+        background: #f3ba2f;
+        border: none;
+        color: #fff;
+        font-size: 14px;
+        border-radius: 5px;
+        outline: none;
+      }
+      .cancel {
+        margin-left: 50px;
+        font-size: 14px;
+        color: #fff
+      }
+    }
+  }
+  .ivu-btn-primary:focus {
+    box-shadow: 0 0 0 2px rgba(240, 218, 23, 0.6) !important;
+  }
+}
+
+//登录——end
+
+//AccountVerify
+.AccountVerify {
+  .slot-item {
+    a {
+      font-size: 20px;
+      color: #fff;
+      border-right: 1px solid #fff;
+      padding-right: 25px;
+      margin-right: 25px;
+    }
+    a:hover {
+      color: #f3ba2f !important;
+      transition: all .3s ease-in-out;
+    }
+  }
+  .ivu-layout-content {
+    background: url("../../static/img/bg.png") no-repeat 100% center;
+    background-size: 100% 100%;
+    min-height: 750px;
+  }
+  .login {
+    width: 100%;
+    padding: 150px 0 !important;
+    @media screen and (min-width: 1200px) {
+      .login-wrap {
+        width: 1200px !important;
+      }
+    }
+    .login-wrap {
+      width: 90%;
+      margin: 0 auto;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      .login-content {
+        width: 468px;
+        .title {
+          text-align: center;
+          font-size: 30px;
+          color: #fff;
+          padding-top: 80px;
+          margin-bottom: 50px;
+        }
+        form {
+          label {
+            visibility: hidden;
+            font-size: 14px;
+            color: #f3ba2f;
+            padding-left: 2px;
+          }
+          .ivu-form-item:nth-of-type(1) {
+            margin-bottom: 30px
+          }
+          .ivu-form-item:nth-of-type(2) {
+            margin-bottom: 40px
+          }
+          .codeNum {
+            position: relative;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            .code {
+              width: 400px;
+              height: 40px;
+            }
+          }
+          .set_account {
+            span {
+              color: #fff;
+              font-size: 14px;
+            }
+            .forget_password {
+              color: #f3ba2f;
+              cursor: pointer;
+              user-select: none;
+            }
+            .register_account {
+              color: #f3ba2f
+            }
+          }
+        }
+      }
+    }
+  }
+}
+//AccountVerify__end
+
+//SafetyVerification
+.SafetyVerification {
+  .slot-item {
+    a {
+      font-size: 20px;
+      color: #fff;
+      border-right: 1px solid #fff;
+      padding-right: 25px;
+      margin-right: 25px;
+    }
+    a:hover {
+      color: #f3ba2f !important;
+      transition: all .3s ease-in-out;
+    }
+  }
+  .ivu-layout-content {
+    background: url("../../static/img/bg.png") no-repeat 100% center;
+    background-size: 100% 100%;
+  }
+  .login {
+    width: 100%;
+    padding: 150px 0 !important;
+    @media screen and (min-width: 1200px) {
+      .login-wrap {
+        width: 1200px !important;
+      }
+    }
+    .login-wrap {
+      width: 90%;
+      margin: 0 auto;
+      .login-content {
+        vertical-align: top;
+        width: 400px;
+        .title {
+          text-align: center;
+          font-size: 30px;
+          color: #fff;
+          margin-bottom: 50px;
+        }
+        form {
+          label {
+            font-size: 14px;
+            color: #95a1bd;
+            padding-left: 2px;
+          }
+          .ivu-form-item:nth-of-type(1) {
+            margin-bottom: 30px
+          }
+          .ivu-form-item:nth-of-type(2) {
+            margin-bottom: 40px
+          }
+          .ivu-form-item:nth-of-type(3) {
+            margin-bottom: 40px;
+            text-align: center;
+          }
+          .ivu-form-item:nth-of-type(4) {
+            margin-bottom: 0
+          }
+          .codeNum {
+            position: relative;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            .regetCode {
+              position: absolute;
+              right: -60px;
+              bottom: 0;
+              color: #f3ba2f;
+              background-color: rgba(0,0,0,0);
+              border: none;
+            }
+          }
+          .set_account {
+            span {
+              color: #fff;
+              font-size: 14px;
+            }
+            .forget_password {
+              color: #f3ba2f;
+              cursor: pointer;
+              user-select: none;
+            }
+            .register_account {
+              color: #f3ba2f
+            }
+          }
+        }
+      }
+    }
+  }
+}
+//SafetyVerification__end
+
+//ResetPassword
+.ResetPassword {
+  .slot-item {
+    a {
+      font-size: 20px;
+      color: #fff;
+      border-right: 1px solid #fff;
+      padding-right: 25px;
+      margin-right: 25px;
+    }
+    a:hover {
+      color: #f3ba2f !important;
+      transition: all .3s ease-in-out;
+    }
+  }
+  .ivu-layout-content {
+    background: url("../../static/img/bg.png") no-repeat 100% center;
+    background-size: 100% 100%;
+  }
+  .login {
+    width: 100%;
+    padding: 150px 0 !important;
+    @media screen and (min-width: 1200px) {
+      .login-wrap {
+        width: 1200px !important;
+      }
+    }
+    .login-wrap {
+      width: 90%;
+      margin: 0 auto;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      .reset {
+        padding-top: 120px;
+        color: #999;
+        font-size: 12px;
+        margin-left: 20px;
+      }
+      .login-content {
+        width: 468px;
+        .title {
+          text-align: center;
+          font-size: 30px;
+          color: #fff;
+          padding-top: 80px;
+          margin-bottom: 50px;
+        }
+        form {
+          label {
+            visibility: hidden;
+            font-size: 14px;
+            color: #f3ba2f;
+            padding-left: 2px;
+          }
+          .ivu-form-item:nth-of-type(1) {
+            margin-bottom: 30px
+          }
+          .ivu-form-item:nth-of-type(2) {
+            margin-bottom: 40px
+          }
+          .codeNum {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+          }
+          .set_account {
+            span {
+              color: #fff;
+              font-size: 14px;
+            }
+            .forget_password {
+              color: #f3ba2f;
+              cursor: pointer;
+              user-select: none;
+            }
+            .register_account {
+              color: #f3ba2f
+            }
+          }
+        }
+      }
+    }
+  }
+}
+//ResetPassword__end
+
+//Model
+.mask_bg{
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  outline: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.slide-fade{
+  position:fixed;
+  left:50%;
+  top:50%;
+  width:auto;
+  height:auto;
+  z-index:1001;
+  transform:translate(-50%,-50%);
+  -webkit-transform:translate(-50%, -50%);
+  border-radius: 5px;
+}
+.cancelOrder{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.model {
+  padding: 40px;
+}
+
+.model-content {
+  margin-top: 20px;
+}
+
+.model_footer {
+  margin-top: 30px;
+}
+//****Model__end
+
+//AgentLink
+.invite-content{
+  width:100%;
+  min-height:990px;
+  padding: 10px 0;
+  background-color: #272c39;
+  .invite-content-main{
+    width:1200px;
+    height:970px;
+    margin:0 auto;
+    background-color: #272c39;
+
+
+  //  inviteLinkHead
+    .Link-head{
+      width: 1200px;
+      height: 200px;
+      background-color: #171a21;
+      border-radius: 8px;
+      .Link-head-top{
+        width: 1160px;
+        height: 80px;
+        line-height: 80px;
+        margin: 0 auto;
+        border-bottom: 1px solid #272c39;
+        p{
+          font-size: 18px;
+          color: #ffffff;
+          font-family: "Microsoft YaHei";
+          float: left;
+          span{
+            display: inline-block;
+            margin-left: 40px;
+          }
+        }
+        .btn-set{
+          display: block;
+          float: right;
+          width: 50px;
+          height: 26px;
+          margin: 30px 10px 30px 0;
+          line-height: 26px;
+          border-radius: 5px;
+          color: #ffffff;
+          font-size: 14px;
+          background-color: #f3ba2f;
+          font-family: "Microsoft YaHei";
+          border: none;
+          outline: none;
+          cursor: pointer;
+        }
+      }
+      .Link-head-main{
+        width: 1160px;
+        height: 120px;
+        margin: 0 auto;
+        p{
+          font-size: 15px;
+          color: #ffffff;
+          font-family: "Microsoft YaHei";
+        }
+        p:nth-of-type(1){
+          margin: 22px 0 10px 0;
+        }
+        p:nth-of-type(2){
+          margin-bottom: 56px;
+        }
+      }
+
+    }
+
+  //  SetBack
+    .set-back{
+      width: 100vw;
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0,0,0,0.4);
+      z-index: 999;
+      .setBack-content{
+        width: 540px;
+        height: 272px;
+        background-color: #272c39;
+        border-radius: 5px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        .icon-wrong{
+          float: right;
+          margin: 20px 20px 0 0;
+          cursor: pointer;
+        }
+        .icon-wrong:before{
+          font-size: 20px;
+        }
+        p:nth-of-type(1){
+          margin: 40px 0 30px 40px;
+          font-size: 18px;
+          color: #ffffff;
+        }
+        p:nth-of-type(2){
+          margin: 0 0 10px 40px;
+          font-size: 14px;
+          color: #ffffff;
+        }
+        .returnValue{
+          width: 370px;
+          height: 40px;
+          border-radius: 5px;
+          border: 1px solid #eeeeee;
+          margin-left: 40px;
+          font-size: 12px;
+          color: #999999;
+          background-color: transparent;
+          padding-left: 10px;
+        }
+        .sure_btn{
+          width: 100px;
+          height: 40px;
+          line-height: 40px;
+          border-radius: 5px;
+          margin: 10px 50px 40px 40px;
+          background-color: #f3ba2f;
+          color: #ffffff;
+          display: block;
+          float: left;
+          font-size: 14px;
+          font-family: "Microsoft YaHei";
+          cursor: pointer;
+          text-align: center;
+        }
+        .fou_btn{
+          color: #ffffff;
+          display: block;
+          float: left;
+          font-size: 14px;
+          margin-top: 20px;
+          text-align: center;
+          font-family: "Microsoft YaHei";
+          cursor: pointer;
+        }
+
+        .number_num{
+          display: flex;
+          width: 370px;
+          height: 40px;
+          outline: none;
+        }
+        .number_num input{
+
+          width: 370px;
+          height: 40px;
+          border-radius: 5px;
+          border: 1px solid #eeeeee;
+          margin-left: 40px;
+          font-size: 14px;
+          color: #999999;
+          background-color: transparent;
+          padding-left: 10px;
+        }
+
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+          -webkit-appearance: none;
+        }
+        input[type="number"]{
+          -moz-appearance: textfield;
+        }
+
+        .number_num ::-webkit-input-placeholder{
+          font-size: 12px;
+        }
+        .number_num ::-moz-placeholder{
+          font-size: 12px;
+        }
+        .number_num :-moz-placeholder{
+          font-size: 12px;
+        }
+        .number_num :-ms-input-placeholder{
+          font-size: 12px;
+        }
+      }
+    }
+
+
+  //  InviteLinkMiddle
+    .Link-middle{
+      width: 1200px;
+      height: 760px;
+      background-color: #171a21;
+      border-radius: 8px;
+      margin-top: 10px;
+      .Link-middle-top{
+        width: 1160px;
+        height: 80px;
+        line-height: 80px;
+        margin: 0 auto;
+        border-bottom: 1px solid #272c39;
+        p{
+          font-size: 18px;
+          font-family: "Microsoft YaHei";
+        }
+        p:nth-of-type(1){
+          float: left;
+          color: #f3ba2f;
+        }
+        p:nth-of-type(2){
+          float: right;
+          color: #f3ba2f;
+          margin-right: 10px;
+          cursor: pointer;
+          .icon-add-yellow{
+            display: block;
+            margin: 34px 10px 0 0;
+            cursor: pointer;
+            float: left;
+          }
+          span{
+            display: block;
+            float: right;
+            color: #ffffff;
+            font-size: 14px;
+            font-family: "Microsoft YaHei";
+          }
+        }
+
+      }
+      .table-data{
+        width: 1158px !important;
+        height: auto;
+        margin: 0 auto;
+
+      }
+
+      .activeSpan{
+        display:block;
+        float:left;
+        color:#f3ba2f;
+      }
+
+      .pageOrder{
+        text-align: center;
+        margin-top: 30px;
+      }
+
+      //AddNewLink
+      .add-newlink{
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,0.4);
+        z-index: 999;
+        .add-newlink-content{
+          width: 540px;
+          height: 178px;
+          background-color: #272c39;
+          border-radius: 5px;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          margin: auto;
+          .icon-wrong{
+            float: right;
+            margin: 20px 20px 0 0;
+            cursor: pointer;
+          }
+          .icon-wrong:before{
+            font-size: 20px;
+          }
+          p{
+            margin: 40px auto 0;
+            font-size: 18px;
+            color: #ffffff;
+            text-align: center;
+          }
+          .sure_btn{
+            width: 100px;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 5px;
+            margin: 40px 50px 40px 200px;
+            background-color: #f3ba2f;
+            color: #ffffff;
+            display: block;
+            float: left;
+            font-size: 14px;
+            font-family: "Microsoft YaHei";
+            cursor: pointer;
+            text-align: center;
+          }
+          .fou_btn{
+            color: #ffffff;
+            display: block;
+            float: left;
+            font-size: 14px;
+            margin-top: 50px;
+            text-align: center;
+            font-family: "Microsoft YaHei";
+            cursor: pointer;
+          }
+        }
+      }
+
+      //LinkTips
+      .link-tips{
+        width: 140px;
+        height: 50px;
+        line-height: 50px;
+        position: absolute;
+        top: 520px;
+        left: 45%;
+        background-color: #272c39;
+        border-radius: 5px;
+        text-align: center;
+        .icon-success-gou{
+          display: block;
+          margin: 13px 0 13px 25px;
+          float: left;
+        }
+        .icon-success-gou:before{
+          font-size: 20px;
+        }
+        p{
+          float: left;
+          color: #ffffff;
+          font-size: 14px;
+          margin-left: 10px;
+        }
+      }
+    }
+
+  }
+}
+
+//HeaderTop
+.header-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+}
+.ivu-dropdown-menu {
+  background: rgba(0, 0, 0, 0.8) !important;
+  border-radius: 4px;
+  .ivu-dropdown-item {
+    color: #fff;
+    a {
+      color: #fff;
+    }
+  }
+  .ivu-dropdown-item:hover {
+    background: #171a2a;
+    color: #f3ba2f;
+    transition: all .3s ease-in-out;
+    a {
+      color: #f3ba2f;
+
+    }
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+  .ivu-layout-header {
+    width: 100% !important;
+  }
+}
+
+.ivu-layout-header {
+  height: 70px;
+  line-height: 70px;
+  background: #171a2a;
+  padding: 0;
+  width: 1200px;
+}
+
+.ivu-menu-dark {
+  background: #171a2a;
+  height: 70px;
+  line-height: 70px;
+}
+
+.logo_img {
+  padding-left: 50px;
+  padding-right: 40px;
+  div {
+    display: inline-block;
+    width: 112px;
+    height: 64px;
+    line-height: 64px;
+    color: #FFF;
+    img {
+      width: 50px;
+      height: 50px;
+      vertical-align: middle;
+    }
+  }
+}
+
+.ivu-menu-item {
+  padding: 0px !important;
+  font-size: 20px;
+  width: 130px;
+  height: 70px;
+  color: #fff;
+  text-align: center;
+}
+.ivu-menu-item:hover {
+  color: #f3ba2f !important;
+  border-top: 4px solid #f3ba2f;
+  border-left: 2px solid #31343e;
+  border-right: 2px solid #31343e;
+  transition: all .3s ease-in-out;
+}
+.checkClass{
+  color: #f3ba2f !important;
+  border-top: 4px solid #f3ba2f;
+  border-left: 2px solid #31343e;
+  border-right: 2px solid #31343e;
+  transition: all .3s ease-in-out;
+}
+.router-link-exact-active {
+  color: #f3ba2f !important;
+}
+
+.item-list .router-link-exact-active {
+  color: #f3ba2f !important;
+  border-top: 4px solid #f3ba2f;
+  border-left: 2px solid #31343e;
+  border-right: 2px solid #31343e;
+}
+
+.item-set {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  padding-right: 25px;
+  .ivu-dropdown:last-child {
+    width: 140px !important;
+    margin-right: 0px !important;
+    .ivu-dropdown-rel {
+      a {
+        padding-right: 0;
+        border-right: none;
+      }
+      .language {
+        padding: 5px 15px;
+        border-radius: 8px;
+        border: 1px solid #fff
+      }
+    }
+  }
+  .ivu-dropdown {
+    margin-right: 25px;
+    .ivu-dropdown-rel {
+      a {
+        color: #fff !important;
+        padding-right: 25px;
+        border-right: 1px solid #fff;
+      }
+      a:hover {
+        color: #f3ba2f !important;
+      }
+      a.language:hover {
+        color: #f3ba2f !important;
+        transition: all .3s ease-in-out;
+        border-color: #f3ba2f !important;
+      }
+    }
+  }
+}
+
+.item-padding {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+}
+
+.item-set > div {
+  font-size: 20px;
+  color: #fff
+}
+.slot-item{
+  span{
+    font-size: 20px;
+    color: #fff;
+    border-right:1px solid #fff;
+    padding-right:25px;
+    margin-right:25px;
+    cursor: pointer;
+  }
+  span:hover{
+    color:#f3ba2f!important;
+    transition:all .3s ease-in-out;
+  }
+  .fontColor{
+    color:#f3ba2f!important;
+    transition:all .3s ease-in-out;
+  }
+}
+
+//Footer
+
+@media screen and (min-width: 1200px){
+  .foot-container{
+    width: 90%!important;
+    .foot-wrap{
+      padding: 38px 0!important;
+    }
+  }
+}
+.foot{
+  position: relative;
+  height:299px;
+  background:#171a21;
+  padding:0;
+  width: 100%;
+  .foot-container{
+    height:100%;
+    width: 1200px;
+    margin:0 auto;
+    .foot-wrap{
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      padding: 38px 20px 0;
+      .foot-left-container{
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        -webkit-flex: 1;
+        flex: 1;
+        width:14.29rem;
+        h1{
+          font-size:30px;
+          color:#fffeed;
+          font-family:'arial-BoldMt';
+          margin-top:0;
+          line-height: 40px;
+        }
+        p{
+          font-size:14px;
+          color:#fffeed;
+          line-height: 38px;
+        }
+        .icons{
+          .icon{
+            border-radius:50%;
+            background:#fff;
+            color:#000;
+            font-size:30px;
+            margin-right:20px;
+            line-height: 38px;
+          }
+        }
+        .copyright{
+          margin-top:60px
+        }
+
+      }
+      ul{
+        margin-left:98px;
+        margin-top:0;
+        .cur{
+          margin-bottom:20px;
+        }
+        li{
+          font-size:18px;
+          color:#fff;
+          line-height:28px;
+          a{
+            font-size:14px;
+            color:#fbfaea;
+
+          }
+          a:hover{
+            transition:all .3s ease-in-out;
+            color:#6a75a9
+          }
+          .router-link-exact-active{
+            color:#f3ba2f;
+          }
+        }
+      }
+    }
+  }
+}
+
+//Footer__end
+
+
+
+//账号管理-基本信息
+.basicInformation{
+  width:100%;
+  height:275px;
+  background:#fff;
+  border-radius: 5px;
+  .basicInformationPadding{
+    padding:0 20px 40px;
+    width:100%;
+    height:100%;
+    .title{
+      font-size:18px;
+      font-family:"Microsoft YaHei";
+      color:#333;
+      height:80px;
+      padding:30px 0;
+      line-height:20px;
+      width:100%;
+    }
+    .basicInformationContent{
+      width:100%;
+      height:155px;
+      border:1px solid #eee;
+      border-radius: 3px;
+      .InformationContentDan{
+        width:100%;
+        height:51px;
+        border-bottom:1px solid #eee;
+        .informationTitle{
+          float:left;
+          height:51px;
+          line-height:51px;
+          margin-left:10px;
+          width:263px;
+          font-size:14px;
+          color:#666;
+          font-family: "Microsoft YaHei";
+        }
+        .informationContent{
+          float:left;
+          height:51px;
+          line-height:51px;
+          width:50%;
+          font-size:14px;
+          color:#333;
+          font-family: "Microsoft YaHei";
+        }
+      }
+    }
+  }
+}
+
+//账号管理-账户与安全
+.accountSecurity{
+  width:100%;
+  height:375px;
+  background:#fff;
+  margin-top:10px;
+  border-radius: 5px;
+  .accountSecurityPadding{
+    padding:0 20px 40px;
+    width:100%;
+    height:100%;
+    .title2{
+      font-size:18px;
+      font-family:"Microsoft YaHei";
+      color:#333;
+      height:80px;
+      padding:30px 0;
+      line-height:20px;
+      width:100%;
+      overflow: hidden;
+      .titleLeft{
+        width:642px;
+        height:20px;
+        float:left;
+      }
+      .titleCenter{
+        width:120px;
+        height:20px;
+        float:left;
+      }
+      .titleRight{
+        width:120px;
+        height:20px;
+        float:right;
+        text-align:right;
+        margin-right:10px;
+        .highLow{
+          color:#f21932;
+        }
+      }
+    }
+    .accountSecurityContent{
+      width:100%;
+      border:1px solid #eee;
+      border-radius: 3px;
+      .accountSecurityContentDan{
+        width:100%;
+        height:51px;
+        border-bottom:1px solid #eee;
+        overflow: hidden;
+        .accountSecurityTitle{
+          float:left;
+          height:51px;
+          line-height:51px;
+          margin-left:10px;
+          width:263px;
+          font-size:14px;
+          color:#666;
+          font-family: "Microsoft YaHei";
+          overflow: hidden;
+          .accountSecurityTitleIcon{
+            width:48px;
+            float: left;
+            height:51px;
+            line-height:51px;
+            display: flex;
+            display: -webkit-flex;
+            flex-flow:row nowrap;
+            justify:center;
+            align-items:center;
+            .iconn{
+              display: inline-block;
+              width:17px;
+              height:19px;
+              background: red;
+            }
+          }
+          .accountSecurityTitleLetter{
+            width:150px;
+            height:51px;
+            line-height:51px;
+            font-size:14px;
+            color:#666;
+            font-family: "Microsoft YaHei";
+            cursor:pointer;
+          }
+        }
+        .accountSecurityContent1{
+          float:left;
+          height:51px;
+          line-height:51px;
+          width:368px;
+          font-size:14px;
+          color:#333;
+          font-family: "Microsoft YaHei";
+        }
+        .accountSecuritySwitch{
+          float:left;
+          height:51px;
+          line-height:51px;
+          width:100px;
+        }
+        .accountSecurityBtn{
+          float:right;
+          height:51px;
+          line-height:51px;
+          margin-right:10px;
+          width:50px;
+          cursor:pointer;
+          font-size:14px;
+          color:#333;
+          font-family: "Microsoft YaHei";
+          text-align:right;
+          &:hover{color:#f3ba2f;}
+        }
+      }
+      .accountSecurityContentDan:nth-child(6){
+        border-bottom:0;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
